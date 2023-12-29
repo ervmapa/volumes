@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: html-config
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Welcome to my website</title>
+    </head>
+    <body>
+      <h1>Hello, world!</h1>
+    </body>
+    </html>
+
